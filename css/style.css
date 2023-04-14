@@ -1,0 +1,52 @@
+body {
+    font-family: 'Nunito';
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: flex;
+    clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0%;
+}
+.inicio {
+    background-image: url(../img/banner-2.jpg);
+    position: cover;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.textoinicio {
+    padding-top: 15%;
+    font-size: 140px;
+}
+
+.firstcoltitle {
+    padding-top: 50px;
+    font-weight: bolder;
+}
+.firstcoltext {
+    padding-top: 20px;
+}
+
+.firstcolimage {
+    width: 500px;
+    height: 500px
+}
+
+.column2 {
+    width: 50%;
+}
+@media only screen and (max-width:700px) {
+    .textoinicio {
+        padding-top: 40%;
+        font-size: 50px;
+    }
+}
