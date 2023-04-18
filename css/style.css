@@ -12,6 +12,7 @@ body {
     clear: both;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-evenly;
     margin: 0%;
 }
 .inicio {
@@ -22,6 +23,7 @@ body {
     height: 100vh;
     background-size: cover;
     text-align: center;
+    flex-direction: row;
 }
 .textoinicio {
     padding-top: 15%;
@@ -29,20 +31,48 @@ body {
 }
 
 .firstcoltitle {
-    padding-top: 50px;
-    font-weight: bolder;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 510%;
+    padding-left: 100px;
 }
 .firstcoltext {
-    padding-top: 20px;
+    padding-top: 80px;
+    margin: 0;
+    font-size: 350%;
+    padding-left: 100px;
 }
 
 .firstcolimage {
-    width: 500px;
-    height: 500px
+    padding-top: 30px;
+    width: 90%;
+    height: 90%;
 }
 
 .column2 {
     width: 50%;
+    float: left;
+}
+
+.column4 { 
+    width: 25%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+}
+.verde {
+    background-color: rgba(37,237,165,255);
+    padding-bottom: 30px;
+}
+
+.secondrowimages {
+    width: 70%;
+}
+.secondrowtitle {
+    padding-top: 20px;
+    font-size: 580%;
+    text-align: center;
 }
 @media only screen and (max-width:700px) {
     .textoinicio {
