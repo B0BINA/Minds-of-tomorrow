@@ -27,7 +27,7 @@ body {
 }
 .textoinicio {
     padding-top: 15%;
-    font-size: 140px;
+    font-size: 80px;
 }
 
 .firstcoltitle {
@@ -61,6 +61,7 @@ body {
     padding-top: 50px;
     padding-left: 10px;
     text-align: center;
+    font-size: 20px;
 }
 .verde {
     background-color: rgba(37,237,165,255);
@@ -116,7 +117,7 @@ font-size: 52px;
 .column4 {
     width: 25%;
     float: left;
-    font-size: 0%;
+    font-size: 20px;
 }
 
 .parrafo3{
